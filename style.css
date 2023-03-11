@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .bus{
+    height: 600px;
+    background: burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}.girl{
+    padding: 5px;
+    background: rgb(15, 50, 204);
+    display: none;
+    font-size: 60px;
+}
+.boy{
+    padding: 5px;
+    background: rgb(98, 197, 17);
+    font-size: 50px;
+}
+.granny{
+padding: 5px;
+background: rgb(31, 39, 39);
+display: none;
+font-size: 50px;
+}
+@media(min-width:600px){
+    .girl{
+        display: block;
+        background:blue;
+    }
+
+
+}
+@media(min-width:800px){
+    .girl{
+        display: block;
+        background:green;
+    }
+
+}
+@media(min-width:700px){
+    .granny{
+        display: block;
+        background: yellow;
+    }
+
+} */ 
+.tree{
+    width: 80px;
+    height: 200px;
+    background: brown;
+    border: 2px solid black;
+}
+@media(min-width:100px){
+    .tree{
+        background: white;
+    }
+}
+
+@media(min-width:200px){
+    .winter{
+        background: white;
+    }
+}
+
+@media(min-width:300px){
+    .tree{
+        background:brown;
+       
+    }
+    .spring{
+        display: block;
+        background: green;
+    }
+}
+.summer{
+   
+}
+@media(min-width:300px){
+    .summer{
+        background: rgb(187, 34, 85);
+    }
+}
+.autumn{
+   
+}
+@media(min-width:300px){
+    .autumn{
+        background: orange;
+    }
+}
